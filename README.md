@@ -6,13 +6,13 @@ Pewlett Hackard has a large number of employees that will be eligible to retire 
 - Our first deliverable requested a list of employees whose birth date is between 1952 and 1955. This resulted in a csv with 133,776 employees. There are duplicates here as well as employees listed that no longer work for the company
 - The second deliverable requested that the duplicate lines be removed from the first deliverable for employees who have had multiple titles in their career. Once this was complete, there were 90,398 employees in the file
 - The third deliverable requested a count of all employees listed in the second deliverable by title. The breakdown by title is as follows:
-	-Senior Engineer - 29,414
-	-Senior Staff - 28,254
-	-Engineer - 14,222
-	-Staff - 12,243
-	-Technique Leader - 4,502
-	-Assistant Engineer - 1,761
-	-Manager - 2
+	- Senior Engineer - 29,414
+	- Senior Staff - 28,254
+	- Engineer - 14,222
+	- Staff - 12,243
+	- Technique Leader - 4,502
+	- Assistant Engineer - 1,761
+	- Manager - 2
 - The final deliverable requested a list of employees that are eligible for the mentorship program. These employees are current employees that were born in 1965. This resulted in a csv with 1,549 employees.
 ## Summary
 - How many roles will need to be filled as the "silver tsunami" begins to make an impact? It is hard to know exactly by the queries that were requested and run. The query for the number of employees whose birth date is between 1952 and 1955 does not exclude employees that have already left the company. I would recreate the query to make sure that the list produced only contains current employees. When the query is re-run, it results in only 72,458 employees instead of 90,398.
